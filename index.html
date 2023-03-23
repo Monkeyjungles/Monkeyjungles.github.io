@@ -19,7 +19,6 @@
             height: 80vh;
             background-image: url('header-background.jpg');
             background-size: cover;
-            margin-bottom: -2rem;
         }
 
         .header-text {
@@ -128,17 +127,109 @@
             text-align: center;
             font-size: 1.5rem;
         }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>Julia Karimova</h1>
+            <img src="tongue.jpg" alt="Profile picture">
+            <h2>Content Writer & Editor </h2>
+            <p>Creating impactful ideas and wordings in diverse industries</p>
+        </div>
+    </header>
+    <main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>My name is Julia. I am a Creative Writer, Editor and Localization Specialist with a solid track record and the ability to generate impactful ideas for various briefs. I feel confident in developing creative concepts and strategy, as well as writing, editing and localization. I am an experienced UX-writer with passion for semantic and lexemes. I know how to lead and inspire creative teams and have experience in creative workflow and production management. I am a keen team player and a self-sufficient multitasker.</p>
+		</section>
+<section id="professional-experience">
+  <h2>Professional Experience</h2>
+  
+  <div class="job">
+    <h3>Content Writer and Editor</h3>
+    <p class="date">2020 - now</p>
+    <p class="company">Open Investments | Fintech Services</p>
+    <ul>
+      <li>Developed brand’s TOV and editorial policy.</li>
+      <li>Led writing, editing and localization across the product.</li>
+      <li>Worked out scripts and interface logic.</li>
+      <li>Created content for PR and social media campaigns.</li>
+      <li>Developed email, push, ad copy, infographics, videos, decks, blogposts, articles, websites, landing pages, etc.</li>
+    </ul>
+  </div>
 
-        #professional-experience {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
+  <div class="job">
+    <h3>Creative and Digital Writer</h3>
+    <p class="date">2011 - 2020</p>
+    <p class="company">Geometry Global | Creative Commerce</p>
+    <ul>
+      <li>Developed creative strategies and concepts for world's brands.</li>
+      <li>Articlutated, worked out and launched integrated event ideas.</li>
+      <li>Managed creative teams and worked closely with business' stakeholders.</li>
+      <li>Handled well under tight deadlines.</li>
+    </ul>
+  </div>
 
-        .job {
-            background-color: #212121;
-            padding: 1rem;
-            margin: 1rem;
-            border-radius: 5px;
-            flex-basis: calc
+  <div class="job">
+    <h3>Senior Copywriter</h3>
+    <p class="date">2007 - 2011</p>
+    <p class="company">JWT International | Creative Marketing</p>
+    <ul>
+      <li>Developed and implemented integrated advertising and PR campaigns.</li>
+      <li>Worked out creative presentations.</li>
+      <li>Carried out shooting and production projects.</li>
+      <li>Created all sorts of verbal and visual content for ad and PR.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <h3>Senior Copywriter</h3>
+    <p class="date">2004 - 2007</p>
+    <p class="company">BBDO | Creative Advertising</p>
+    <ul>
+      <li>Developed creative ideas and concepts.</li>
+      <li>Localized texts, slogans, messages and scripts for ad and PR campaigns.</li>
+      <li>Wrote and edited original copy for multi-channel communications.</li>
+      <li>Carried out client's presentation.</li>
+      <li>Won new businesses.</li>
+    </ul>
+  </div>
+
+</section>
+
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<a href="https://project1.com"><img src="project1-image.jpg" alt="Project 1"></a>
+			</div>
+			<div class="project">
+				<a href="https://project2.com"><img src="project2-image.jpg" alt="Project 2"></a>
+			</div>
+			<div class="project">
+				<a href="https://project3.com"><img src="project3-image.jpg" alt="Project 3"></a>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Julia's Portfolio. All rights reserved.</p>
+	</footer>
+</body>
+</html>
