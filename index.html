@@ -1,54 +1,57 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Julia's Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="header-text">
+			<h1>Julia</h1>
+			<h2>Creative Leader</h2>
+			<p>Generating impactful ideas for various briefs</p>
+		</div>
+	</header>
 
-header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	background-image: url('header-background.jpg');
-	background-size: cover;
-	color: #fff;
-}
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>My name is Julia. I am a Creative Leader with a solid track record and the ability to generate impactful ideas for various briefs. I feel confident in developing creative concepts and strategy, as well as writing, editing and localization. I am an experienced UX-writer with passion for semantic and lexemes. I know how to lead and inspire creative teams and have experience in creative workflow and production management. I am a keen team player and a self-sufficient multitasker.</p>
+		</section>
 
-.header-text {
-	text-align: center;
-}
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<a href="https://project1.com"><img src="project1-image.jpg" alt="Project 1"></a>
+			</div>
+			<div class="project">
+				<a href="https://project2.com"><img src="project2-image.jpg" alt="Project 2"></a>
+			</div>
+			<div class="project">
+				<a href="https://project3.com"><img src="project3-image.jpg" alt="Project 3"></a>
+			</div>
+		</section>
 
-.header-text h1 {
-	font-size: 5rem;
-	margin: 0;
-	letter-spacing: -0.05em;
-}
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
 
-.header-text h2 {
-	font-size: 2rem;
-	font-weight: 300;
-	margin: 0;
-}
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
 
-.header-text p {
-	font-size: 1.2rem;
-	font-weight: 300;
-	margin: 1rem 0;
-}
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
 
-main {
-	padding: 2rem;
-}
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+	</main>
 
-section {
-	margin-bottom: 2rem;
-}
-
-section h2 {
-	font-size: 2rem;
-	margin-bottom: 1rem;
-}
-
-section p {
-	font-size: 1.2rem;
-	line-height: 1
+	<footer>
+		<p>&copy; 2023 Julia's Portfolio. All rights reserved.</p>
+	</footer>
+</body>
+</html>
